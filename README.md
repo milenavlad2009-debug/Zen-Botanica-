@@ -338,11 +338,14 @@ leading pages: Zen Botanica
             opacity: 0.8;
         }
         .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 2.5rem;
-            max-width: 1200px;
-            margin: 0 auto;
+           .product-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
         }
         .product-card {
             background: white;
@@ -644,8 +647,8 @@ leading pages: Zen Botanica
                 <div class="floating-card">
                     <i class="fas fa-seedling"></i>
                     <div class="product-badge">NEW</div>
-                    <div style="font-size: 1.8rem; font-weight: 600; color: var(--deep-forest);">Immuno Zen</div>
-                    <div style="font-size: 0.9rem;">c ашвагандой</div>
+                    <div style="font-size: 1.8rem; font-weight: 600; color: var(--deep-forest);"> Zen Botanica </div>
+                    <div style="font-size: 0.9rem;">cărbune </div>
                 </div>
             </div>
         </section>
@@ -680,11 +683,8 @@ leading pages: Zen Botanica
                     <h3> Eco‑prietenos</h3>
                     <p>Ambalaje biodegradabile și recoltare etică a plantelor medicinale</p>
                 </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-brain"></i></div>
-                    <h3>Adaptogeni</h3>
-                   
-                </div>
+            
+               
                 <div class="benefit-card">
                     <div class="benefit-icon"><i class="fas fa-heartbeat"></i></div>
                     <h3>Fără efecte secundare</h3>
@@ -713,47 +713,27 @@ leading pages: Zen Botanica
         <!-- НАУЧНЫЙ ПОДХОД -->
         <section class="science" id="science">
             <div class="science-text">
-                <h2>Научный подход к природе</h2>
-                <p>Каждая партия Zen Botanica проходит тройной контроль: фитохимический, микробиологический и клинический.</p>
+                <h2>O abordare științifică a naturii</h2>
+                <p>Fiecare lot de Zen Botanica este supus unui triplu control: fitochimic, microbiologic și clinic.</p>
                 <div class="science-highlight">
                     <i class="fas fa-dna" style="color: var(--deep-forest); margin-right: 10px;"></i>
-                    Запатентованная технология экстракции сохраняет в 3 раза больше активных веществ.
+                    Tehnologia de extracție patentată păstrează de 3 ori mai multe ingrediente active.
                 </div>
             </div>
             <div class="science-visual">
                 <i class="fas fa-microscope"></i>
-                <h3 style="color: var(--golden-nectar);">Лаборатория ZB</h3>
-                <p>Мы не просто смешиваем травы — мы исследуем синергию. Более 2000 комбинаций протестировано.</p>
+                <h3 style="color: var(--golden-nectar);">Laboratorie ZB</h3>
+                <p>Au fost testate peste 2.000 de combinații.</p>
             </div>
         </section>
 
-        <!-- ОТЗЫВЫ -->
-        <section class="testimonials" id="reviews">
-            <h2>Голоса доверия</h2>
-            <div class="testimonial-grid">
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-right"></i>
-                    <p>После курса Immuno Zen забыла про сезонные простуды. Состав чистый, без химии. Рекомендую!</p>
-                    <div class="client"><span>ЕК</span> Елена, 42 года</div>
-                </div>
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-right"></i>
-                    <p>Calm Zen — спасение при бессоннице. Засыпаю за 15 минут и просыпаюсь отдохнувшей.</p>
-                    <div class="client"><span>МР</span> Мария, 37 лет</div>
-                </div>
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-right"></i>
-                    <p>Digest Zen помог наладить пищеварение после антибиотиков. Вкусный, мятный.</p>
-                    <div class="client"><span>АК</span> Алексей, 29 лет</div>
-                </div>
-            </div>
-        </section>
-
+      
+          
         <!-- БАННЕР ПРИЗЫВА -->
         <div class="cta-banner">
             <h2>Начни свой путь к балансу</h2>
-            <p style="font-size: 1.2rem;">Первый заказ — скидка 15% + бесплатная доставка</p>
-            <a href="#" class="btn-primary"><i class="fas fa-arrow-right"></i> Выбрать набор</a>
+            <p style="font-size: 1.2rem;">Prima comandă - reducere 15% + livrare gratuită</p>
+            <a href="#" class="btn-primary"><i class="fas fa-arrow-right"></i> Selectați</a>
         </div>
     </main>
 
