@@ -629,7 +629,7 @@ leading pages: Zen Botanica
             <a href="#science">Științe</a>
             <a href="#reviews">Comandă</a>
         </div>
-        <a href="#" class="nav-cta"><i class="fas fa-leaf" style="margin-right: 8px;"></i>Заказать</a>
+        <a href="#" class="nav-cta"><i class="fas fa-leaf" style="margin-right: 8px;"></i>Comandă</a>
     </nav>
 
     <main>
@@ -657,15 +657,15 @@ leading pages: Zen Botanica
         <div class="stats container">
             <div class="stat-item">
                 <div class="stat-number">15+</div>
-                <div class="stat-label">лет исследований</div>
+                <div class="stat-label">ani de cercetare</div>
             </div>
             <div class="stat-item">
                 <div class="stat-number">50k+</div>
-                <div class="stat-label">довольных клиентов</div>
+                <div class="stat-label">clienți mulțumiți</div>
             </div>
             <div class="stat-item">
                 <div class="stat-number">100%</div>
-                <div class="stat-label">натуральный состав</div>
+                <div class="stat-label">compoziție naturală</div>
             </div>
         </div>
 
