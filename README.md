@@ -621,10 +621,10 @@ leading pages: Zen Botanica
     <nav class="navbar">
         <div class="logo">Zen Botanica<span>nature·science·balance</span></div>
         <div class="nav-links">
-            <a href="#home">Главная</a>
-            <a href="#products">Продукты</a>
-            <a href="#science">Наука</a>
-            <a href="#reviews">Отзывы</a>
+            <a href="#home">Acasă</a>
+            <a href="#products">Produse</a>
+            <a href="#science">Științe</a>
+            <a href="#reviews">Comandă</a>
         </div>
         <a href="#" class="nav-cta"><i class="fas fa-leaf" style="margin-right: 8px;"></i>Заказать</a>
     </nav>
@@ -633,11 +633,11 @@ leading pages: Zen Botanica
         <!-- HERO -->
         <section class="hero leaf-bg" id="home">
             <div class="hero-content">
-                <h1>Дыши свободно <br>с <i>ZEN</i> Botanica</h1>
-                <p>Травяные комплексы, созданные на стыке вековых знаний и современных клинических исследований.</p>
+                <h1>Respiră liber <br>cu <i>ZEN</i> Botanica</h1>
+                <p> Suplimente create la granița dintre cunoștințele străvechi și cercetările clinice moderne.</p>
                 <div class="hero-btns">
-                    <a href="#" class="btn-primary">Выбрать комплекс</a>
-                    <a href="#" class="btn-outline">Консультация</a>
+                    <a href="#" class="btn-primary"> Alege un produs</a>
+                    <a href="#" class="btn-outline"> Consultanță</a>
                 </div>
             </div>
             <div class="hero-visual">
@@ -668,75 +668,46 @@ leading pages: Zen Botanica
 
         <!-- ПРЕИМУЩЕСТВА (НЕОБЫЧНЫЕ КАРТОЧКИ) -->
         <section class="benefits">
-            <h2>Почему Zen Botanica?</h2>
+            <h2>De ce Zen Botanica?</h2>
             <div class="benefits-grid">
                 <div class="benefit-card">
                     <div class="benefit-icon"><i class="fas fa-flask"></i></div>
-                    <h3>Клинически доказано</h3>
-                    <p>6 двойных слепых плацебо-исследований подтверждают эффективность</p>
+                    <h3> Dovedit clinic </h3>
+                    <p>6 Studiile placebo dublu-orb confirmă eficacitatea</p>
                 </div>
                 <div class="benefit-card">
                     <div class="benefit-icon"><i class="fas fa-recycle"></i></div>
-                    <h3>Эко-френдли</h3>
-                    <p>Биоразлагаемая упаковка и этичный сбор трав</p>
+                    <h3> Eco‑prietenos</h3>
+                    <p>Ambalaje biodegradabile și recoltare etică a plantelor medicinale</p>
                 </div>
                 <div class="benefit-card">
                     <div class="benefit-icon"><i class="fas fa-brain"></i></div>
-                    <h3>Адаптогены</h3>
-                    <p>Уникальные комбинации родиолы, ашваганды и священного базилика</p>
+                    <h3>Adaptogeni</h3>
+                   
                 </div>
                 <div class="benefit-card">
                     <div class="benefit-icon"><i class="fas fa-heartbeat"></i></div>
-                    <h3>Без побочных</h3>
-                    <p>Мягкое действие без привыкания и сонливости</p>
+                    <h3>Fără efecte secundare</h3>
+                    <p>Acțiune blândă, fără dependență sau somnolență</p>
                 </div>
             </div>
         </section>
 
         <!-- ПРОДУКТЫ -->
         <section class="products" id="products">
-            <h2>Эликсиры равновесия</h2>
-            <div class="products-sub">Каждая формула создана с заботой о вашем теле и духе</div>
-            <div class="product-grid">
-                <div class="product-card">
-                    <span class="product-badge">Хит</span>
-                    <div class="product-img"><i class="fas fa-capsules"></i></div>
-                    <h3>Immuno Zen</h3>
-                    <p class="product-desc">Эхинацея, бузина, цинк — тройная защита иммунитета.</p>
-                    <div class="product-footer">
-                        <span class="price">34$</span>
-                        <button class="btn-add" aria-label="Добавить"><i class="fas fa-plus"></i></button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <span class="product-badge">NEW</span>
-                    <div class="product-img"><i class="fas fa-leaf"></i></div>
-                    <h3>Calm Zen</h3>
-                    <p class="product-desc">Магний, мелисса, L-теанин — антистресс и глубокий сон.</p>
-                    <div class="product-footer">
-                        <span class="price">39$</span>
-                        <button class="btn-add"><i class="fas fa-plus"></i></button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img"><i class="fas fa-fire"></i></div>
-                    <h3>Digest Zen</h3>
-                    <p class="product-desc">Мята, имбирь, фенхель — лёгкость после еды.</p>
-                    <div class="product-footer">
-                        <span class="price">32$</span>
-                        <button class="btn-add"><i class="fas fa-plus"></i></button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img"><i class="fas fa-bolt"></i></div>
-                    <h3>Energy Zen</h3>
-                    <p class="product-desc">Кордицепс, элеутерококк, гуарана — заряд без кофеина.</p>
-                    <div class="product-footer">
-                        <span class="price">37$</span>
-                        <button class="btn-add"><i class="fas fa-plus"></i></button>
-                    </div>
-                </div>
-            </div>
+           <div class="product-grid">
+    <div class="product-card">
+        <span class="product-badge">Nou</span>
+        <div class="product-img"><i class="fas fa-capsules"></i></div>
+        <h3>Immuno Zen</h3>
+        <p class="product-desc">Echinaceea, soc, zinc – protecție triplă pentru imunitate.</p>
+        <div class="product-footer">
+           
+            <button class="btn-add" aria-label="Adaugă"><i class="fas fa-plus"></i></button>
+        </div>
+    </div>
+</div> 
+
         </section>
 
         <!-- НАУЧНЫЙ ПОДХОД -->
