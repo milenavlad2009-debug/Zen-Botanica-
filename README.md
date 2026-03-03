@@ -8,7 +8,7 @@ leading pages: Zen Botanica
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zen Botanica · Природная гармония</title>
+    <title>Zen Botanica · Armonie naturală</title>
     <!-- Font Awesome 6 (бесплатный) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Google Fonts: мягкий Poppins & элегантный Playfair Display -->
@@ -731,7 +731,7 @@ leading pages: Zen Botanica
           
         <!-- БАННЕР ПРИЗЫВА -->
         <div class="cta-banner">
-            <h2>Начни свой путь к балансу</h2>
+            <h2>Începe-ți călătoria către echilibru</h2>
             <p style="font-size: 1.2rem;">Prima comandă - reducere 15% + livrare gratuită</p>
             <a href="#" class="btn-primary"><i class="fas fa-arrow-right"></i> Selectați</a>
         </div>
@@ -742,7 +742,7 @@ leading pages: Zen Botanica
         <div class="footer-grid">
             <div>
                 <div class="footer-logo">Zen Botanica</div>
-                <p style="margin-top: 1rem; opacity: 0.7;">Фитотерапия, прошедшая испытание временем и наукой.</p>
+                <p style="margin-top: 1rem; opacity: 0.7;">Fitoterapia care a rezistat testului timpului și al științei.</p>
                 <div class="socials">
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-telegram"></i></a>
@@ -750,28 +750,28 @@ leading pages: Zen Botanica
                 </div>
             </div>
             <div class="footer-links">
-                <h4>Каталог</h4>
-                <a href="#">Иммунитет</a>
-                <a href="#">Сон и стресс</a>
-                <a href="#">Пищеварение</a>
-                <a href="#">Энергия</a>
+                <h4>Catalog</h4>
+                <a href="#">Imunitate</a>
+                <a href="#">Somn si stres </a>
+                <a href="#">Digestie</a>
+                <a href="#">Energie</a>
             </div>
             <div class="footer-links">
-                <h4>Покупателям</h4>
-                <a href="#">Доставка и оплата</a>
-                <a href="#">Сертификаты</a>
-                <a href="#">Блог</a>
-                <a href="#">Контакты</a>
+                <h4>Pentru cumpărători</h4>
+                <a href="#">Livrare și plată</a>
+                <a href="#">Certificate</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
             </div>
             <div class="footer-links">
-                <h4>Связаться</h4>
-                <a href="mailto:info@zenbotanica.com">info@zenbotanica.com</a>
-                <a href="tel:+18005551234">+1 (800) 555-1234</a>
-                <p style="margin-top: 1rem;">📍 Ботаническая лаборатория, Вермонт</p>
+                <h4>Contact</h4>
+                <a href="mailto:milena.vlad2009@icloud.com">milena.vlad2009@icloud.com</a>
+                <a href="tel:+770103217">+40 770 103 217</a>
+                <p style="margin-top: 1rem;">📍Laboratorul Botanic, Vermont</p>
             </div>
         </div>
         <div class="copyright">
-            © 2025 Zen Botanica. Природа внутри тебя.
+            © 2025 Zen Botanica.
         </div>
     </footer>
 </body>
