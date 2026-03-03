@@ -617,6 +617,125 @@ leading pages: Zen Botanica
                 gap: 1.5rem;
                 border-radius: 3rem;
             }
+
+            /* ========== АДАПТАЦИЯ - УЛУЧШЕННАЯ ========== */
+        /* Планшеты и большие телефоны (до 900px) */
+        @media (max-width: 900px) {
+            .hero {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding: 2rem 1rem 3rem;
+            }
+            .hero-content p {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .hero-btns {
+                justify-content: center;
+            }
+            /* Статистика */
+            .stats {
+                flex-direction: column;
+                gap: 1.5rem;
+                border-radius: 3rem;
+                padding: 2rem 1rem;
+            }
+        }
+
+        /* Телефоны (до 600px) - добавляем новый, более мелкий брейкпоинт */
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                gap: 0.8rem;
+                padding: 1rem;
+            }
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+            .nav-cta {
+                padding: 0.5rem 1.5rem;
+                font-size: 0.9rem;
+            }
+
+            .hero-content h1 {
+                font-size: clamp(2rem, 8vw, 2.8rem);
+            }
+            .hero-content p {
+                font-size: 1rem;
+                padding-left: 1rem;
+            }
+            .floating-card {
+                width: 250px;
+                height: 250px;
+            }
+            .floating-card i {
+                font-size: 5rem;
+            }
+
+            .benefits h2, .products h2, .science-text h2, .testimonials h2 {
+                font-size: 2rem;
+            }
+
+            .product-grid, .benefits-grid, .testimonial-grid {
+                gap: 1rem;
+            }
+
+            .product-card {
+                padding: 1.5rem 1rem;
+            }
+            .product-img {
+                font-size: 3rem;
+                padding: 0.8rem 1.2rem;
+            }
+            .price {
+                font-size: 1.4rem;
+            }
+
+            .science {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                padding: 2rem 1rem;
+                text-align: center;
+            }
+            .science-visual {
+                padding: 2rem 1rem;
+            }
+
+            .cta-banner {
+                padding: 2rem 1rem;
+                margin: 2rem 1rem;
+                border-radius: 3rem 1rem 3rem 1rem;
+            }
+            .cta-banner h2 {
+                font-size: 2rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .socials {
+                justify-content: center;
+            }
+        }
+
+        /* Очень маленькие телефоны (до 400px) */
+        @media (max-width: 400px) {
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            .hero-btns {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .btn-primary, .btn-outline {
+                text-align: center;
+            }
+        }
         }
     </style>
 </head>
