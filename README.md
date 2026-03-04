@@ -4,19 +4,19 @@ leading pages: Zen Botanica
 
 
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zen Botanica · Armonie naturală</title>
-    <!-- Font Awesome 6 (бесплатный) -->
+    <!-- Font Awesome 6 (gratuit) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Google Fonts: мягкий Poppins & элегантный Playfair Display -->
+    <!-- Google Fonts: Poppins & Playfair Display -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        /* ========== СБРОС И ПЕРЕМЕННЫЕ ========== */
+        /* ========== RESET & VARIABILE ========== */
         * {
             margin: 0;
             padding: 0;
@@ -24,12 +24,12 @@ leading pages: Zen Botanica
         }
 
         :root {
-            --deep-forest: #1B4D3E;       /* глубокий зелёный, премиум */
-            --soft-mint: #D1F0E2;          /* нежная мята */
-            --warm-sand: #FAF3E0;           /* песочный, уют */
-            --golden-nectar: #F4B942;       /* тёплый акцент (мёд/куркума) */
-            --slate: #2E3B3B;                /* тёмный для текста */
-            --cloud: #F9FBFD;                /* почти белый */
+            --deep-forest: #1B4D3E;       /* verde adânc, premium */
+            --soft-mint: #D1F0E2;          /* mentă delicată */
+            --warm-sand: #FAF3E0;           /* nisip cald */
+            --golden-nectar: #F4B942;       · accent cald (miere/curcuma) */
+            --slate: #2E3B3B;                /* gri-verde închis pentru text */
+            --cloud: #F9FBFD;                · aproape alb */
             --shadow-sm: 0 15px 30px -12px rgba(0, 20, 10, 0.15);
             --shadow-hover: 0 30px 40px -15px rgba(27, 77, 62, 0.25);
             --border-radius-card: 2rem 1rem 2rem 1rem;
@@ -60,7 +60,7 @@ leading pages: Zen Botanica
             padding: 0 2rem;
         }
 
-        /* ========== ДЕКОРАТИВНЫЕ ЭЛЕМЕНТЫ ========== */
+        /* ========== FUNDAL DECORATIV ========== */
         .leaf-bg {
             position: relative;
             overflow: hidden;
@@ -73,7 +73,7 @@ leading pages: Zen Botanica
             pointer-events: none;
         }
 
-        /* ========== HEADER ========== */
+        /* ========== HEADER / NAVBAR ========== */
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -191,6 +191,7 @@ leading pages: Zen Botanica
             box-shadow: var(--shadow-sm);
             transition: all 0.2s;
             border: 1px solid var(--deep-forest);
+            display: inline-block;
         }
         .btn-primary:hover {
             background-color: transparent;
@@ -206,6 +207,7 @@ leading pages: Zen Botanica
             border-radius: 50px;
             font-weight: 600;
             transition: 0.2s;
+            display: inline-block;
         }
         .btn-outline:hover {
             background-color: var(--deep-forest);
@@ -253,7 +255,7 @@ leading pages: Zen Botanica
             100% { transform: translateY(0px) rotate(0deg); }
         }
 
-        /* ========== БРЕНД-СТАТИСТИКА ========== */
+        /* ========== STATISTICI ========== */
         .stats {
             display: flex;
             justify-content: space-around;
@@ -279,7 +281,7 @@ leading pages: Zen Botanica
             font-size: 0.9rem;
         }
 
-        /* ========== ПРЕИМУЩЕСТВА (НЕОБЫЧНАЯ СЕТКА) ========== */
+        /* ========== BENEFICII ========== */
         .benefits {
             padding: 5rem 2rem;
             background-color: white;
@@ -321,7 +323,7 @@ leading pages: Zen Botanica
             margin-bottom: 0.8rem;
         }
 
-        /* ========== ПРОДУКТЫ ========== */
+        /* ========== PRODUSE ========== */
         .products {
             padding: 5rem 2rem;
             background: linear-gradient(145deg, var(--cloud) 30%, var(--soft-mint) 100%);
@@ -338,14 +340,11 @@ leading pages: Zen Botanica
             opacity: 0.8;
         }
         .product-grid {
-           .product-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2.5rem;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
         }
         .product-card {
             background: white;
@@ -425,7 +424,7 @@ leading pages: Zen Botanica
             transform: rotate(90deg);
         }
 
-        /* ========== НАУЧНЫЙ ПОДХОД ========== */
+        /* ========== SECȚIUNEA ȘTIINȚIFICĂ ========== */
         .science {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -466,7 +465,7 @@ leading pages: Zen Botanica
             margin-bottom: 1rem;
         }
 
-        /* ========== ОТЗЫВЫ ========== */
+        /* ========== TESTIMONIALE ========== */
         .testimonials {
             background: var(--deep-forest);
             color: white;
@@ -515,7 +514,7 @@ leading pages: Zen Botanica
             justify-content: center;
         }
 
-        /* ========== ПРИЗЫВ (CTA) ========== */
+        /* ========== CTA BANNER ========== */
         .cta-banner {
             background: linear-gradient(120deg, var(--soft-mint), var(--warm-sand));
             margin: 4rem auto;
@@ -593,33 +592,7 @@ leading pages: Zen Botanica
             font-size: 0.9rem;
         }
 
-        /* ========== АДАПТАЦИЯ ========== */
-        @media (max-width: 800px) {
-            .hero, .science {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-            .hero-content p {
-                margin-left: auto;
-                margin-right: auto;
-            }
-            .navbar {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            .nav-links {
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 1.2rem;
-            }
-            .stats {
-                flex-direction: column;
-                gap: 1.5rem;
-                border-radius: 3rem;
-            }
-
-            /* ========== АДАПТАЦИЯ - УЛУЧШЕННАЯ ========== */
-        /* Планшеты и большие телефоны (до 900px) */
+        /* ========== MEDIA QUERIES (corectate, la nivel global) ========== */
         @media (max-width: 900px) {
             .hero {
                 grid-template-columns: 1fr;
@@ -633,16 +606,18 @@ leading pages: Zen Botanica
             .hero-btns {
                 justify-content: center;
             }
-            /* Статистика */
             .stats {
                 flex-direction: column;
                 gap: 1.5rem;
                 border-radius: 3rem;
                 padding: 2rem 1rem;
             }
+            .science {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
         }
 
-        /* Телефоны (до 600px) - добавляем новый, более мелкий брейкпоинт */
         @media (max-width: 600px) {
             .navbar {
                 flex-direction: column;
@@ -659,7 +634,6 @@ leading pages: Zen Botanica
                 padding: 0.5rem 1.5rem;
                 font-size: 0.9rem;
             }
-
             .hero-content h1 {
                 font-size: clamp(2rem, 8vw, 2.8rem);
             }
@@ -674,15 +648,12 @@ leading pages: Zen Botanica
             .floating-card i {
                 font-size: 5rem;
             }
-
             .benefits h2, .products h2, .science-text h2, .testimonials h2 {
                 font-size: 2rem;
             }
-
             .product-grid, .benefits-grid, .testimonial-grid {
                 gap: 1rem;
             }
-
             .product-card {
                 padding: 1.5rem 1rem;
             }
@@ -693,17 +664,13 @@ leading pages: Zen Botanica
             .price {
                 font-size: 1.4rem;
             }
-
             .science {
-                grid-template-columns: 1fr;
                 gap: 2rem;
                 padding: 2rem 1rem;
-                text-align: center;
             }
             .science-visual {
                 padding: 2rem 1rem;
             }
-
             .cta-banner {
                 padding: 2rem 1rem;
                 margin: 2rem 1rem;
@@ -712,7 +679,6 @@ leading pages: Zen Botanica
             .cta-banner h2 {
                 font-size: 2rem;
             }
-
             .footer-grid {
                 grid-template-columns: 1fr;
                 text-align: center;
@@ -722,7 +688,6 @@ leading pages: Zen Botanica
             }
         }
 
-        /* Очень маленькие телефоны (до 400px) */
         @media (max-width: 400px) {
             .nav-links {
                 flex-direction: column;
@@ -736,7 +701,6 @@ leading pages: Zen Botanica
                 text-align: center;
             }
         }
-        }
     </style>
 </head>
 <body>
@@ -745,8 +709,9 @@ leading pages: Zen Botanica
         <div class="nav-links">
             <a href="#home">Acasă</a>
             <a href="#products">Produse</a>
-            <a href="#science">Științe</a>
-            <a href="#reviews">Comandă</a>
+            <a href="#science">Știință</a>
+            <a href="#reviews">Recenzii</a>
+            <a href="#order">Comandă</a>
         </div>
         <a href="#" class="nav-cta"><i class="fas fa-leaf" style="margin-right: 8px;"></i>Comandă</a>
     </nav>
@@ -756,23 +721,23 @@ leading pages: Zen Botanica
         <section class="hero leaf-bg" id="home">
             <div class="hero-content">
                 <h1>Respiră liber <br>cu <i>ZEN</i> Botanica</h1>
-                <p> Suplimente create la granița dintre cunoștințele străvechi și cercetările clinice moderne.</p>
+                <p>Suplimente create la granița dintre cunoștințele străvechi și cercetările clinice moderne.</p>
                 <div class="hero-btns">
-                    <a href="#" class="btn-primary"> Alege un produs</a>
-                    <a href="#" class="btn-outline"> Consultanță</a>
+                    <a href="#" class="btn-primary">Alege un produs</a>
+                    <a href="#" class="btn-outline">Consultanță</a>
                 </div>
             </div>
             <div class="hero-visual">
                 <div class="floating-card">
                     <i class="fas fa-seedling"></i>
-                    <div class="product-badge">NEW</div>
-                    <div style="font-size: 1.8rem; font-weight: 600; color: var(--deep-forest);"> Zen Botanica </div>
-                    <div style="font-size: 0.9rem;">cărbune </div>
+                    <div class="product-badge">Nou</div>
+                    <div style="font-size: 1.8rem; font-weight: 600; color: var(--deep-forest);">Zen Botanica</div>
+                    <div style="font-size: 0.9rem;">cărbune activ</div>
                 </div>
             </div>
         </section>
 
-        <!-- СТАТИСТИКА ДОВЕРИЯ -->
+        <!-- STATISTICI -->
         <div class="stats container">
             <div class="stat-item">
                 <div class="stat-number">15+</div>
@@ -788,52 +753,69 @@ leading pages: Zen Botanica
             </div>
         </div>
 
-        <!-- ПРЕИМУЩЕСТВА (НЕОБЫЧНЫЕ КАРТОЧКИ) -->
+        <!-- BENEFICII -->
         <section class="benefits">
             <h2>De ce Zen Botanica?</h2>
             <div class="benefits-grid">
                 <div class="benefit-card">
                     <div class="benefit-icon"><i class="fas fa-flask"></i></div>
-                    <h3> Dovedit clinic </h3>
-                    <p>6 Studiile placebo dublu-orb confirmă eficacitatea</p>
+                    <h3>Dovedit clinic</h3>
+                    <p>6 studii placebo dublu-orb confirmă eficacitatea</p>
                 </div>
                 <div class="benefit-card">
                     <div class="benefit-icon"><i class="fas fa-recycle"></i></div>
-                    <h3> Eco‑prietenos</h3>
-                    <p>Ambalaje biodegradabile și recoltare etică a plantelor medicinale</p>
+                    <h3>Eco‑prietenos</h3>
+                    <p>Ambalaje biodegradabile și recoltare etică</p>
                 </div>
-            
-               
                 <div class="benefit-card">
                     <div class="benefit-icon"><i class="fas fa-heartbeat"></i></div>
                     <h3>Fără efecte secundare</h3>
-                    <p>Acțiune blândă, fără dependență sau somnolență</p>
+                    <p>Acțiune blândă, fără dependență</p>
                 </div>
             </div>
         </section>
 
-        <!-- ПРОДУКТЫ -->
+        <!-- PRODUSE (acum cu mai multe carduri) -->
         <section class="products" id="products">
-           <div class="product-grid">
-    <div class="product-card">
-        <span class="product-badge">Nou</span>
-        <div class="product-img"><i class="fas fa-capsules"></i></div>
-        <h3>Immuno Zen</h3>
-        <p class="product-desc">Echinaceea, soc, zinc – protecție triplă pentru imunitate.</p>
-        <div class="product-footer">
-           
-            <button class="btn-add" aria-label="Adaugă"><i class="fas fa-plus"></i></button>
-        </div>
-    </div>
-</div> 
-
+            <h2>Produsele noastre</h2>
+            <div class="products-sub">Alege din gama atent formulată pentru nevoile tale</div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <span class="product-badge">Nou</span>
+                    <div class="product-img"><i class="fas fa-capsules"></i></div>
+                    <h3>Immuno Zen</h3>
+                    <p class="product-desc">Echinaceea, soc, zinc – protecție triplă pentru imunitate.</p>
+                    <div class="product-footer">
+                        <span class="price">98 Lei</span>
+                        <button class="btn-add" aria-label="Adaugă"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img"><i class="fas fa-moon"></i></div>
+                    <h3>Calm Zen</h3>
+                    <p class="product-desc">Melatonină, lavandă, magneziu – somn profund și relaxare.</p>
+                    <div class="product-footer">
+                        <span class="price">112 Lei</span>
+                        <button class="btn-add" aria-label="Adaugă"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img"><i class="fas fa-lungs"></i></div>
+                    <h3>Respira Zen</h3>
+                    <p class="product-desc">Cărbune activ, eucalipt, propolis – pentru că Căile respiratorii.</p>
+                    <div class="product-footer">
+                        <span class="price">87 Lei</span>
+                        <button class="btn-add" aria-label="Adaugă"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <!-- НАУЧНЫЙ ПОДХОД -->
+        <!-- SECȚIUNEA ȘTIINȚIFICĂ -->
         <section class="science" id="science">
             <div class="science-text">
                 <h2>O abordare științifică a naturii</h2>
-                <p>Fiecare lot de Zen Botanica este supus unui triplu control: fitochimic, microbiologic și clinic.</p>
+                <p>Fiecare lot Zen Botanica este supus unui triplu control: fitochimic, microbiologic și clinic.</p>
                 <div class="science-highlight">
                     <i class="fas fa-dna" style="color: var(--deep-forest); margin-right: 10px;"></i>
                     Tehnologia de extracție patentată păstrează de 3 ori mai multe ingrediente active.
@@ -841,18 +823,44 @@ leading pages: Zen Botanica
             </div>
             <div class="science-visual">
                 <i class="fas fa-microscope"></i>
-                <h3 style="color: var(--golden-nectar);">Laboratorie ZB</h3>
-                <p>Au fost testate peste 2.000 de combinații.</p>
+                <h3 style="color: var(--golden-nectar);">Laborator ZB</h3>
+                <p>Peste 2.000 de combinații testate.</p>
             </div>
         </section>
 
-      
-          
-        <!-- БАННЕР ПРИЗЫВА -->
-        <div class="cta-banner">
+        <!-- TESTIMONIALE (nou adăugate pentru a completa) -->
+        <section class="testimonials" id="reviews">
+            <h2>Ce spun clienții</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right"></i>
+                    <p>„De când iau Immuno Zen, răcelile au devenit o amintire. În plus, au un gust natural plăcut.”</p>
+                    <div class="client">
+                        <span>E</span> Elena M.
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right"></i>
+                    <p>„Calm Zen mă ajută să adorm repede și să mă trezesc odihnită. Fără efect de dependență.”</p>
+                    <div class="client">
+                        <span>R</span> Radu T.
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right"></i>
+                    <p>„Recomand cu încredere. Ambalajele sunt eco și produsele chiar funcționează.”</p>
+                    <div class="client">
+                        <span>A</span> Ana P.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BANNER CTA -->
+        <div class="cta-banner" id="order">
             <h2>Începe-ți călătoria către echilibru</h2>
             <p style="font-size: 1.2rem;">Prima comandă - reducere 15% + livrare gratuită</p>
-            <a href="#" class="btn-primary"><i class="fas fa-arrow-right"></i> Selectați</a>
+            <a href="#" class="btn-primary"><i class="fas fa-arrow-right"></i> Selectează</a>
         </div>
     </main>
 
@@ -861,22 +869,22 @@ leading pages: Zen Botanica
         <div class="footer-grid">
             <div>
                 <div class="footer-logo">Zen Botanica</div>
-                <p style="margin-top: 1rem; opacity: 0.7;">Fitoterapia care a rezistat testului timpului și al științei.</p>
+                <p style="margin-top: 1rem; opacity: 0.7;">Fitoterapie care a rezistat testului timpului și al științei.</p>
                 <div class="socials">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-telegram"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                 </div>
             </div>
             <div class="footer-links">
                 <h4>Catalog</h4>
                 <a href="#">Imunitate</a>
-                <a href="#">Somn si stres </a>
+                <a href="#">Somn și stres</a>
                 <a href="#">Digestie</a>
                 <a href="#">Energie</a>
             </div>
             <div class="footer-links">
-                <h4>Pentru cumpărători</h4>
+                <h4>Cumpărători</h4>
                 <a href="#">Livrare și plată</a>
                 <a href="#">Certificate</a>
                 <a href="#">Blog</a>
@@ -885,14 +893,13 @@ leading pages: Zen Botanica
             <div class="footer-links">
                 <h4>Contact</h4>
                 <a href="mailto:milena.vlad2009@icloud.com">milena.vlad2009@icloud.com</a>
-                <a href="tel:+770103217">+40 770 103 217</a>
-                <p style="margin-top: 1rem;">📍Laboratorul Botanic, Vermont</p>
+                <a href="tel:+40770103217">+40 770 103 217</a>
+                <p style="margin-top: 1rem;">📍 Str. Botanicii, Vermont</p>
             </div>
         </div>
         <div class="copyright">
-            © 2025 Zen Botanica.
+            © 2025 Zen Botanica. Toate drepturile rezervate.
         </div>
     </footer>
 </body>
 </html>
-
