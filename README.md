@@ -15,7 +15,7 @@ leading pages: Zen Botanica
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        /* ========== RESET & VARIABILE ========== */
+        /* ========== RESET ȘI VARIABILE ========== */
         * {
             margin: 0;
             padding: 0;
@@ -322,7 +322,7 @@ leading pages: Zen Botanica
             margin-bottom: 0.8rem;
         }
 
-        /* ========== PRODUSE (doar un produs) ========== */
+        /* ========== PRODUSE (un singur produs) ========== */
         .products {
             padding: 5rem 2rem;
             background: linear-gradient(145deg, var(--cloud) 30%, var(--soft-mint) 100%);
