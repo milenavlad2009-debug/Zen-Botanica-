@@ -2,14 +2,13 @@
 leading pages: Zen Botanica
 
 
-
 <!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zen Botanica · Armonie naturală</title>
-    <!-- Font Awesome 6 (gratuit) -->
+    <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Google Fonts: Poppins & Playfair Display -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,12 +23,12 @@ leading pages: Zen Botanica
         }
 
         :root {
-            --deep-forest: #1B4D3E;       /* verde adânc, premium */
-            --soft-mint: #D1F0E2;          /* mentă delicată */
-            --warm-sand: #FAF3E0;           /* nisip cald */
-            --golden-nectar: #F4B942;       · accent cald (miere/curcuma) */
-            --slate: #2E3B3B;                /* gri-verde închis pentru text */
-            --cloud: #F9FBFD;                · aproape alb */
+            --deep-forest: #1B4D3E;
+            --soft-mint: #D1F0E2;
+            --warm-sand: #FAF3E0;
+            --golden-nectar: #F4B942;
+            --slate: #2E3B3B;
+            --cloud: #F9FBFD;
             --shadow-sm: 0 15px 30px -12px rgba(0, 20, 10, 0.15);
             --shadow-hover: 0 30px 40px -15px rgba(27, 77, 62, 0.25);
             --border-radius-card: 2rem 1rem 2rem 1rem;
@@ -73,7 +72,7 @@ leading pages: Zen Botanica
             pointer-events: none;
         }
 
-        /* ========== HEADER / NAVBAR ========== */
+        /* ========== HEADER ========== */
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -323,7 +322,7 @@ leading pages: Zen Botanica
             margin-bottom: 0.8rem;
         }
 
-        /* ========== PRODUSE ========== */
+        /* ========== PRODUSE (doar un produs) ========== */
         .products {
             padding: 5rem 2rem;
             background: linear-gradient(145deg, var(--cloud) 30%, var(--soft-mint) 100%);
@@ -465,55 +464,6 @@ leading pages: Zen Botanica
             margin-bottom: 1rem;
         }
 
-        /* ========== TESTIMONIALE ========== */
-        .testimonials {
-            background: var(--deep-forest);
-            color: white;
-            padding: 5rem 2rem;
-            clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
-        }
-        .testimonials h2 {
-            text-align: center;
-            font-size: 2.8rem;
-            color: var(--soft-mint);
-        }
-        .testimonial-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-            max-width: 1100px;
-            margin: 3rem auto 0;
-        }
-        .testimonial-card {
-            background: rgba(255,255,255,0.1);
-            backdrop-filter: blur(4px);
-            padding: 2rem;
-            border-radius: 3rem 0.5rem 3rem 0.5rem;
-            border: 1px solid rgba(255,255,255,0.2);
-        }
-        .testimonial-card i {
-            color: var(--golden-nectar);
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-        .client {
-            margin-top: 1.5rem;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 0.8rem;
-        }
-        .client span {
-            background: var(--golden-nectar);
-            color: var(--deep-forest);
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
         /* ========== CTA BANNER ========== */
         .cta-banner {
             background: linear-gradient(120deg, var(--soft-mint), var(--warm-sand));
@@ -592,7 +542,7 @@ leading pages: Zen Botanica
             font-size: 0.9rem;
         }
 
-        /* ========== MEDIA QUERIES (corectate, la nivel global) ========== */
+        /* ========== MEDIA QUERIES ========== */
         @media (max-width: 900px) {
             .hero {
                 grid-template-columns: 1fr;
@@ -648,10 +598,10 @@ leading pages: Zen Botanica
             .floating-card i {
                 font-size: 5rem;
             }
-            .benefits h2, .products h2, .science-text h2, .testimonials h2 {
+            .benefits h2, .products h2, .science-text h2 {
                 font-size: 2rem;
             }
-            .product-grid, .benefits-grid, .testimonial-grid {
+            .product-grid, .benefits-grid {
                 gap: 1rem;
             }
             .product-card {
@@ -710,7 +660,6 @@ leading pages: Zen Botanica
             <a href="#home">Acasă</a>
             <a href="#products">Produse</a>
             <a href="#science">Știință</a>
-            <a href="#reviews">Recenzii</a>
             <a href="#order">Comandă</a>
         </div>
         <a href="#" class="nav-cta"><i class="fas fa-leaf" style="margin-right: 8px;"></i>Comandă</a>
@@ -775,10 +724,10 @@ leading pages: Zen Botanica
             </div>
         </section>
 
-        <!-- PRODUSE (acum cu mai multe carduri) -->
+        <!-- PRODUSE (doar Immuno Zen) -->
         <section class="products" id="products">
-            <h2>Produsele noastre</h2>
-            <div class="products-sub">Alege din gama atent formulată pentru nevoile tale</div>
+            <h2>Produsul nostru</h2>
+            <div class="products-sub">Un singur produs, o eficiență dovedită</div>
             <div class="product-grid">
                 <div class="product-card">
                     <span class="product-badge">Nou</span>
@@ -787,24 +736,6 @@ leading pages: Zen Botanica
                     <p class="product-desc">Echinaceea, soc, zinc – protecție triplă pentru imunitate.</p>
                     <div class="product-footer">
                         <span class="price">98 Lei</span>
-                        <button class="btn-add" aria-label="Adaugă"><i class="fas fa-plus"></i></button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img"><i class="fas fa-moon"></i></div>
-                    <h3>Calm Zen</h3>
-                    <p class="product-desc">Melatonină, lavandă, magneziu – somn profund și relaxare.</p>
-                    <div class="product-footer">
-                        <span class="price">112 Lei</span>
-                        <button class="btn-add" aria-label="Adaugă"><i class="fas fa-plus"></i></button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img"><i class="fas fa-lungs"></i></div>
-                    <h3>Respira Zen</h3>
-                    <p class="product-desc">Cărbune activ, eucalipt, propolis – pentru că Căile respiratorii.</p>
-                    <div class="product-footer">
-                        <span class="price">87 Lei</span>
                         <button class="btn-add" aria-label="Adaugă"><i class="fas fa-plus"></i></button>
                     </div>
                 </div>
@@ -828,34 +759,6 @@ leading pages: Zen Botanica
             </div>
         </section>
 
-        <!-- TESTIMONIALE (nou adăugate pentru a completa) -->
-        <section class="testimonials" id="reviews">
-            <h2>Ce spun clienții</h2>
-            <div class="testimonial-grid">
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-right"></i>
-                    <p>„De când iau Immuno Zen, răcelile au devenit o amintire. În plus, au un gust natural plăcut.”</p>
-                    <div class="client">
-                        <span>E</span> Elena M.
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-right"></i>
-                    <p>„Calm Zen mă ajută să adorm repede și să mă trezesc odihnită. Fără efect de dependență.”</p>
-                    <div class="client">
-                        <span>R</span> Radu T.
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <i class="fas fa-quote-right"></i>
-                    <p>„Recomand cu încredere. Ambalajele sunt eco și produsele chiar funcționează.”</p>
-                    <div class="client">
-                        <span>A</span> Ana P.
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- BANNER CTA -->
         <div class="cta-banner" id="order">
             <h2>Începe-ți călătoria către echilibru</h2>
@@ -864,7 +767,7 @@ leading pages: Zen Botanica
         </div>
     </main>
 
-    <!-- FOOTER -->
+    <!-- FOOTER (acum vizibil corect) -->
     <footer>
         <div class="footer-grid">
             <div>
